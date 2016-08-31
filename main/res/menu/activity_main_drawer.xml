@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_medicines"
+            android:icon="@drawable/ic_local_pharmacy_24dp"
+            android:title="Medicines" />
+
+
+
+        <item
+            android:id="@+id/nav_addmedicines"
+            android:icon="@drawable/ic_edit_24dp"
+            android:title="Add medicines" />
+        <item
+                android:id="@+id/nav_myaccount"
+                android:icon="@drawable/ic_person_24dp"
+                android:title="My account" />
+        <item
+                android:id="@+id/nav_tool"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Tool" />
+    </group>
+
+    <item
+        android:title="Order">
+
+        <menu>
+            <item
+                android:id="@+id/nav_selMedi"
+                android:icon="@drawable/ic_add_shopping_cart_24dp"
+                android:title="Select Medicines" />
+            <item
+                android:id="@+id/nav_placeOrdeer"
+                android:icon="@drawable/ic_assignment_turned_in_24dp"
+                android:title="Place Order" />
+            <item
+                android:id="@+id/nav_records"
+                android:icon="@drawable/ic_toc_24dp"
+                android:title="Records"/>
+        </menu>
+    </item>
+</menu>
